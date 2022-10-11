@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Chest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="TTK.png">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">King's Fall Red Border Boss Chess</h1>
+        <div class="img-info">
+            <img src="starting-symbols.png" alt="starting-symbols" id="starting-symbols">
+            <div class="info-text">
+                <div class="centered-text">
+                    <p>
+                        When you begin the raid, three symbols will spawn on the walls below the hive portal.  Take note of these and find them throughout the raid.
+                    </p>
+                    <p>
+                        Throughout the Raid, there are nine glowing circles that can be shot to reveal a symbol.  You must shoot the three symbols that correspond with the symbols seen at the start.
+                    </p>
+                    <p>
+                        If you shoot the incorrect symbol, you can shoot it again to deactivate it.  This must be done in one run (no checkpoints) and is limited to once per account per week.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="symbol-list">
+            <div class="img-back" id="sym-1" onmouseover="symOver(this)" onmouseleave="symOut(this)" onclick="selectSym(this)"><img src="sym-1.png" alt="sym-1"></div>
+            <div class="img-back" id="sym-2" onmouseover="symOver(this)" onmouseleave="symOut(this)" onclick="selectSym(this)"><img src="sym-2.png" alt="sym-2"></div>
+            <div class="img-back" id="sym-3" onmouseover="symOver(this)" onmouseleave="symOut(this)" onclick="selectSym(this)"><img src="sym-3.png" alt="sym-3"></div>
+            <div class="img-back" id="sym-4" onmouseover="symOver(this)" onmouseleave="symOut(this)" onclick="selectSym(this)"><img src="sym-4.png" alt="sym-4"></div>
+            <div class="img-back" id="sym-5" onmouseover="symOver(this)" onmouseleave="symOut(this)" onclick="selectSym(this)"><img src="sym-5.png" alt="sym-5"></div>
+            <div class="img-back" id="sym-6" onmouseover="symOver(this)" onmouseleave="symOut(this)" onclick="selectSym(this)"><img src="sym-6.png" alt="sym-6"></div>
+            <div class="img-back" id="sym-7" onmouseover="symOver(this)" onmouseleave="symOut(this)" onclick="selectSym(this)"><img src="sym-7.png" alt="sym-7"></div>
+            <div class="img-back" id="sym-8" onmouseover="symOver(this)" onmouseleave="symOut(this)" onclick="selectSym(this)"><img src="sym-8.png" alt="sym-8"></div>
+            <div class="img-back" id="sym-9" onmouseover="symOver(this)" onmouseleave="symOut(this)" onclick="selectSym(this)"><img src="sym-9.png" alt="sym-9"></div>
+        </div>
+        <div class="symbols-to-get" id="secret">
+        </div>
+        <div class="completion-popup">
+            <h1>If you have successfully activated the 3 Symbols you will see a "The runes accept your offering" message appear in chat</h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
